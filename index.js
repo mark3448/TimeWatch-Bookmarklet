@@ -25,7 +25,7 @@
 	var today = new Date();
 	var popup;
 
-    var tableElm = doc.querySelectorAll('table table')[4];
+    var tableElm = doc.querySelectorAll('.content table')[2];
     var allTableRows = tableElm.querySelectorAll('tr'); // includes table headers
 
     // Headers (first three rows)
