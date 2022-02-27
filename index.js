@@ -1,6 +1,5 @@
 (function (win, doc) {
     // Redirect from anywhere (the bookmarklet is also a regular bookmark)
-	alert(win.location.hostname);
     if (!win.location.hostname.includes('timewatch.co.il')) {
         win.location.href = 'https://checkin.timewatch.co.il';
         return;
