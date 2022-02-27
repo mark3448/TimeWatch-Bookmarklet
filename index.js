@@ -6,7 +6,7 @@
 	}
 
 	// Homepage, after login
-	if (window.location.pathname === '/punch/punch2_e.php') {
+	if (window.location.pathname === 'punch/punch2.php') {
 		// Goto "Update punch data" page
 		var links = Array.from(document.querySelectorAll('a'))
 		var updatePunchDataLink = links.find((l) => l.getAttribute('href').startsWith('/punch/editwh.php?'));
