@@ -16,7 +16,7 @@ A timewatch.co.il helper tool to calculate working hours.
 **Name:** "TimeWatch" (or whatever)  
 **URL:** copy the following code:
     ```
-    javascript:void%20function(){var%20a=document.createElement(%22script%22);a.src=%22https://cdn.jsdelivr.net/gh/taitulism/TimeWatch-Bookmarklet/index.js%22,a.type=%22text/javascript%22,document.body.appendChild(a)}();
+    javascript:void%20function(){var%20a=document.createElement(%22script%22);a.src=%22https://cdn.jsdelivr.net/gh/mark3448/TimeWatch-Bookmarklet/index.js%22,a.type=%22text/javascript%22,document.body.appendChild(a)}();
     ```
 
 What this code does is basically loading and running
