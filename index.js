@@ -1,8 +1,7 @@
 (function (win, doc) {
     // Redirect from anywhere (the bookmarklet is also a regular bookmark)
-	console.log(win.location.hostname);
+	alert(win.location.hostname);
     if (!win.location.hostname.includes('timewatch.co.il')) {
-		console.log('fail');
         win.location.href = 'https://checkin.timewatch.co.il';
         return;
 	}
@@ -322,7 +321,7 @@
 		var absDiff = Math.abs(totalDiff);
 		var hoursDiff = padWithZero(Math.floor(absDiff / 60));
 		var minsDiff = padWithZero(absDiff % 60);
-		var link = 'https://github.com/taitulism/TimeWatch-Bookmarklet';
+		var link = 'https://github.com/mark3448/TimeWatch-Bookmarklet';
 		var repoLink = '<a href="'+link+'" style="color:white;">'+link+'</a>';
 
 		// Create elements
